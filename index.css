@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    background-color: brown;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    transition: 0.8s all;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+  }
+  .card h2{
+    text-shadow: 2px 2px 3px white;
+  }
+  
+  .card:hover {
+    box-shadow: 20px 20px 50px rgba(119, 0, 255, 0.382);
+    transform: scale(1.2);
+  }
+  
+  /* box- shadow */
+  
+  /* box-shadow : offset -x , offset-y,blur-radius, spread-radius, color */
+  
+  /* offset-x - gorizonlar yonalishda soyani belgilaydi, Musbat qiymat  o'ng tomonga manfiy chap tomonga siljitadi  */
+  
+  /* offset - y - vertikal bo'ylab yonalishda soyani belgilaydi. Musbat qiymat o'ng tomonga manfiy chap tomonga */
+  
+  /* blur - radius - qanchalik hiralashishini korsatib beradi  */
+  /* color - rangini korsatib beradi */
